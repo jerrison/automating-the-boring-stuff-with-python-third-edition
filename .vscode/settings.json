@@ -1,0 +1,17 @@
+{
+  // Format on save
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+
+  // Use Black for Python
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+
+  // Make the Black extension use your Poetry env's Black
+  "black-formatter.importStrategy": "fromEnvironment",
+  "black-formatter.path": [],
+
+  // (Optional) Disable legacy provider setting from old Python extension
+  "python.formatting.provider": "none"
+}
